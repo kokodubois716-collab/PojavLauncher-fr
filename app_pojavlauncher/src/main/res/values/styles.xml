@@ -1,42 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Light or not? -->
+
+    <!-- MeyzLauncher main theme -->
     <style name="AppTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="android:windowContentOverlay">@null</item>
+
+        <!-- System bars -->
         <item name="android:statusBarColor">@color/background_status_bar</item>
         <item name="android:navigationBarColor">@color/background_app</item>
+
+        <!-- Preferences -->
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
 
+        <!-- Default text size -->
         <item name="android:textSize">@dimen/_12ssp</item>
-
     </style>
 
+    <!-- Launcher menu divider -->
     <style name="LauncherFragment_Divider">
         <item name="android:layout_width">@dimen/padding_tiny</item>
         <item name="android:layout_height">0dp</item>
         <item name="android:background">@color/divider</item>
     </style>
 
+    <!-- Launcher menu button -->
     <style name="LauncherMenuButton" parent="Widget.AppCompat.Button">
         <item name="android:background">?android:attr/selectableItemBackground</item>
     </style>
 
+    <!-- Universal launcher menu button -->
     <style name="LauncherMenuButton.Universal" parent="LauncherMenuButton">
         <item name="android:layout_height">@dimen/_66sdp</item>
     </style>
 
+    <!-- Thick divider -->
     <style name="ThickDivider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/_1sdp</item>
         <item name="android:background">?android:attr/listDivider</item>
     </style>
 
+    <!-- Dimension tracker -->
     <item name="dimension_tracker" type="id" />
+
     <style name="DimensionTracker">
         <item name="android:id">@id/dimension_tracker</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
     </style>
+
 </resources>
