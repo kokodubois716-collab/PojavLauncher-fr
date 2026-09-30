@@ -1,151 +1,171 @@
-<h1 align="center">PojavLauncher</h1>
+🔵 MeyzLauncher
 
-<img src="https://github.com/PojavLauncherTeam/PojavLauncher/blob/v3_openjdk/app_pojavlauncher/src/main/assets/pojavlauncher.png" align="left" width="130" height="150" alt="PojavLauncher logo">
+<h1 align="center">🔷 MeyzLauncher</h1><p align="center">
+  <img src="assets/meyzlauncher.png" width="140" alt="MeyzLauncher Logo">
+</p><p align="center">
+  <strong>Minecraft Java Edition sur Android, à ta façon.</strong>
+</p><p align="center">
+  Un launcher Android inspiré de PojavLauncher, avec l'identité MeyzLauncher.
+</p><p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-2196F3?style=for-the-badge&logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/Game-Minecraft%20Java-1976D2?style=for-the-badge&logo=minecraft&logoColor=white" alt="Minecraft Java">
+  <img src="https://img.shields.io/badge/Project-MeyzLauncher-1565C0?style=for-the-badge" alt="MeyzLauncher">
+</p>---
 
-[![Android CI](https://github.com/PojavLauncherTeam/PojavLauncher/workflows/Android%20CI/badge.svg)](https://github.com/PojavLauncherTeam/PojavLauncher/actions)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/PojavLauncherTeam/PojavLauncher)](https://github.com/PojavLauncherTeam/PojavLauncher/actions)
-[![Crowdin](https://badges.crowdin.net/pojavlauncher/localized.svg)](https://crowdin.com/project/pojavlauncher)
-[![Discord](https://img.shields.io/discord/724163890803638273.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.com/invite/aenk3EUvER)
-[![Twitter Follow](https://img.shields.io/twitter/follow/plaunchteam?color=blue&style=flat-square)](https://twitter.com/PLaunchTeam)
+📖 Présentation
 
-*From [Boardwalk](https://github.com/zhuowei/Boardwalk)'s ashes here comes PojavLauncher!*
+MeyzLauncher est un projet de launcher Android destiné à permettre le lancement de Minecraft: Java Edition sur les appareils Android compatibles.
 
-PojavLauncher is a launcher that allows you to play Minecraft: Java Edition on your Android and [iOS](https://github.com/PojavLauncherTeam/PojavLauncher_iOS) devices.
+Le projet est basé sur le code source de PojavLauncher et vise à proposer une expérience personnalisée sous l'identité MeyzLauncher.
 
-For more details, check out our [wiki](https://pojavlauncher.app/)!
+✨ Fonctionnalités
 
-## Important Notes
+- 🎮 Lancement de Minecraft: Java Edition sur Android.
+- 🧩 Prise en charge des versions et fonctionnalités héritées du projet de base, selon leur compatibilité.
+- ⚙️ Configuration des paramètres de lancement.
+- 🎨 Identité visuelle personnalisée MeyzLauncher.
+- 📱 Interface adaptée aux appareils Android.
+- 🛠️ Possibilité d'évolution grâce aux contributions de la communauté.
 
-**PojavLauncher has been discontinued** and is no longer supported. Its successor is available [here](https://github.com/AngelAuraMC/Amethyst-Android).
+«Les fonctionnalités disponibles dépendent de la version du code source utilisée et des modifications apportées au projet.»
 
-## Table of Contents
+📥 Télécharger MeyzLauncher
 
-* [Introduction](#introduction)
-* [Getting PojavLauncher](#getting-pojavlauncher)
-* [Building](#building)
-    * [Quick Build (Recommended)](#quick-build-recommended)
-    * [Detailed Build](#detailed-build)
-* [Current Status](#current-status)
-* [Known Issues](#known-issues)
-* [FAQ](#faq)
-* [Contributing](#contributing)
-* [Support](#support)
-* [License](#license)
-* [Credits & Dependencies](#credits--dependencies)
-* [Roadmap](#roadmap)
+Les versions compilées seront publiées dans la section Releases du dépôt GitHub.
 
-## Introduction
+- Releases : "Télécharger MeyzLauncher" (https://github.com/TON-PSEUDO/MeyzLauncher/releases)
+- Code source : "Consulter le dépôt" (https://github.com/TON-PSEUDO/MeyzLauncher)
+- Compilation automatique : "GitHub Actions" (https://github.com/TON-PSEUDO/MeyzLauncher/actions)
 
-* PojavLauncher is a Minecraft: Java Edition launcher for Android and iOS based on [Boardwalk](https://github.com/zhuowei/Boardwalk)
-* This launcher can launch almost all available Minecraft versions ranging from rd-132211 to 1.21 snapshots (including Combat Test versions)
-* Modding via Forge and Fabric are also supported.
-* This repository contains source code for Android. For iOS/iPadOS, check out [PojavLauncher_iOS](https://github.com/PojavLauncherTeam/PojavLauncher_iOS).
+Remplace "TON-PSEUDO" par ton nom d'utilisateur GitHub et "MeyzLauncher" par le nom exact de ton dépôt si nécessaire.
 
-## Getting PojavLauncher
+🏗️ Compilation
 
-You can get PojavLauncher via three methods:
+Prérequis
 
-1. **Releases:** Download the prebuilt app from our [stable releases](https://github.com/PojavLauncherTeam/PojavLauncher/releases) or [automatic builds](https://github.com/PojavLauncherTeam/PojavLauncher/actions).
-2. **Google Play:** Get it from Google Play by clicking on this badge: [![Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=net.kdt.pojavlaunch)
-3. **Build from Source:** Follow the [building instructions](#building) below.
+- Git
+- Android SDK
+- JDK compatible avec le projet
+- Gradle Wrapper fourni avec le dépôt
+- Les dépendances et composants nécessaires au projet
 
-## Building
+Compilation rapide
 
-### Quick Build (Recommended)
+1. Clone le dépôt :
+   
+   git clone https://github.com/TON-PSEUDO/MeyzLauncher.git
+cd MeyzLauncher
 
-The easiest way to build PojavLauncher is to use the pre-built JREs provided by our CI.
+2. Lance la compilation :
+   
+   ./gradlew :app_pojavlauncher:assembleDebug
+   
+   Sous Windows, utilise :
+   
+   gradlew.bat :app_pojavlauncher:assembleDebug
 
-1. Clone the repository: `git clone https://github.com/PojavLauncherTeam/PojavLauncher.git`
-2. Build the launcher: `./gradlew :app_pojavlauncher:assembleDebug` (Use `gradlew.bat` on Windows)
+3. Une fois la compilation terminée, recherche l'APK dans :
+   
+   app_pojavlauncher/build/outputs/apk/debug/
 
-The built APK will be located in `app_pojavlauncher/build/outputs/apk/debug/`.
+Important : ces commandes supposent que le projet conserve la structure de modules de PojavLauncher. Si les noms des modules ont changé, adapte la commande au projet.
 
-### Detailed Build
+Compilation automatique avec GitHub Actions
 
-If you need more control over the build process, follow these steps:
+Une compilation Android peut être automatisée avec un workflow GitHub Actions.
 
-1. **Java Runtime Environment (JRE):** Download the `jre8-pojav` artifact from our [CI auto builds](https://github.com/PojavLauncherTeam/android-openjdk-build-multiarch/actions).  This package contains pre-built JREs for all supported architectures.  If you need to build the JRE yourself, follow the instructions in the [android-openjdk-build-multiarch](https://github.com/PojavLauncherTeam/android-openjdk-build-multiarch) repository.
+Le workflow doit notamment :
 
-2. **LWJGL:** The build instructions for the custom LWJGL are available over the [LWJGL repository](https://github.com/PojavLauncherTeam/lwjgl3).
+1. Récupérer le code source.
+2. Installer la version appropriée du JDK.
+3. Configurer Android SDK.
+4. Accorder les permissions nécessaires au Gradle Wrapper.
+5. Compiler l'APK.
+6. Publier l'APK comme artefact téléchargeable.
 
-3. **Language List:** Because languages are auto-added by Crowdin, you need to run the language list generator before building. In the project directory, run:
-   * Linux/macOS:
-     ```bash
-     chmod +x scripts/languagelist_updater.sh
-     bash scripts/languagelist_updater.sh
-     ```
-   * Windows:
-     ```batch
-     scripts\languagelist_updater.bat
-     ```
+📊 État du projet
 
-4. **Build GLFW stub:** `./gradlew :jre_lwjgl3glfw:build`
+Fonctionnalité| État
+Base du launcher| Héritée de PojavLauncher
+Identité MeyzLauncher| En personnalisation
+Logo bleu| À intégrer dans le projet
+Interface personnalisée| Selon les modifications
+Compilation APK| À vérifier
+Tests sur appareils Android| À effectuer
+Publication des releases| Selon l'avancement
 
-5. **Build the launcher:** `./gradlew :app_pojavlauncher:assembleDebug` (Replace `gradlew` with `gradlew.bat` on Windows).
+Cette liste doit être mise à jour au fur et à mesure du développement.
 
-## Current Status
+🐛 Problèmes connus
 
-* [x] OpenJDK 8 Mobile port: ARM32, ARM64, x86, x86_64
-* [x] OpenJDK 17 Mobile port: ARM32, ARM64, x86, x86_64
-* [x] OpenJDK 21 Mobile port: ARM32, ARM64, x86, x86_64
-* [x] Headless mod installer
-* [x] Mod installer with GUI
-* [x] OpenGL in OpenJDK environment
-* [x] OpenAL (works on most devices)
-* [x] Support for Minecraft 1.12.2 and below
-* [x] Support for Minecraft 1.13 and above
-* [x] Support for Minecraft 1.17 (22w13a) and above
-* [x] Game surface zooming
-* [x] New input pipe rewritten to native code
-* [x] Rewritten entire controls system
-* [ ] More to come!
+Si tu rencontres un problème :
 
-## Known Issues
+1. Vérifie la version de Minecraft utilisée.
+2. Vérifie que l'appareil dispose de suffisamment de mémoire.
+3. Consulte les journaux du launcher.
+4. Vérifie la compatibilité des mods et des bibliothèques.
+5. Ouvre une issue GitHub en fournissant les informations utiles.
 
-See our [issue tracker](https://github.com/PojavLauncherTeam/PojavLauncher/issues) for a list of known issues and their current status.
+Pour signaler un problème :
 
-## FAQ
+"Créer une issue" (https://github.com/TON-PSEUDO/MeyzLauncher/issues)
 
-See our [wiki](https://pojavlauncherteam.github.io/) for more information.
+🤝 Contributions
 
-## Contributing
+Les contributions sont les bienvenues.
 
-Contributions are welcome! We welcome any type of contribution, not only code. For example, you can help improve the [wiki](https://pojavlauncherteam.github.io/), contribute to the [translations](https://crowdin.com/project/pojavlauncher), or submit bug reports and feature requests.
+Tu peux contribuer en :
 
-Any code change should be submitted as a pull request. The description should explain what the code does and give steps to execute it.
+- Signalant des bugs.
+- Proposant des améliorations.
+- Améliorant l'interface.
+- Participant aux traductions.
+- Testant les versions compilées.
+- Soumettant des pull requests.
 
-## Support
+Toute modification doit respecter la licence du code concerné ainsi que les licences des composants utilisés.
 
-For support, please join our [Discord server](https://discord.com/invite/aenk3EUvER).
+📜 Licence
 
-## License
+MeyzLauncher est un projet dérivé de PojavLauncher.
 
-PojavLauncher is licensed under [GNU LGPLv3](https://github.com/PojavLauncherTeam/PojavLauncher/blob/v3_openjdk/LICENSE).
+Le projet d'origine est distribué sous la licence GNU LGPL v3, mais les fichiers et dépendances peuvent avoir des licences différentes.
 
-## Credits & Dependencies
+Consulte les fichiers "LICENSE" et les notices de copyright du dépôt d'origine avant de distribuer une version modifiée.
 
-* [Boardwalk](https://github.com/zhuowei/Boardwalk) (JVM Launcher): Unknown License/[Apache License 2.0](https://github.com/zhuowei/Boardwalk/blob/master/LICENSE) or GNU GPLv2.
-* Android Support Libraries: [Apache License 2.0](https://android.googlesource.com/platform/prebuilts/maven_repo/android/+/master/NOTICE.txt).
-* [GL4ES](https://github.com/PojavLauncherTeam/gl4es): [MIT License](https://github.com/ptitSeb/gl4es/blob/master/LICENSE).
-* [OpenJDK](https://github.com/PojavLauncherTeam/openjdk-multiarch-jdk8u): [GNU GPLv2 License](https://openjdk.java.net/legal/gplv2+ce.html).
-* [LWJGL3](https://github.com/PojavLauncherTeam/lwjgl3): [BSD-3 License](https://github.com/LWJGL/lwjgl3/blob/master/LICENSE.md).
-* [LWJGLX](https://github.com/PojavLauncherTeam/lwjglx) (LWJGL2 API compatibility layer for LWJGL3): unknown license.
-* [Mesa 3D Graphics Library](https://gitlab.freedesktop.org/mesa/mesa): [MIT License](https://docs.mesa3d.org/license.html).
-* [pro-grade](https://github.com/pro-grade/pro-grade) (Java sandboxing security manager): [Apache License 2.0](https://github.com/pro-grade/pro-grade/blob/master/LICENSE.txt).
-* [bhook](https://github.com/bytedance/bhook) (Used for exit code trapping): [MIT license](https://github.com/bytedance/bhook/blob/main/LICENSE).
-* [libepoxy](https://github.com/anholt/libepoxy): [MIT License](https://github.com/anholt/libepoxy/blob/master/COPYING).
-* [virglrenderer](https://github.com/PojavLauncherTeam/virglrenderer): [MIT License](https://gitlab.freedesktop.org/virgl/virglrenderer/-/blob/master/COPYING).
-* Thanks to [MCHeads](https://mc-heads.net) for providing Minecraft avatars.
+"Licence PojavLauncher" (https://github.com/PojavLauncherTeam/PojavLauncher/blob/v3_openjdk/LICENSE)
 
-## Roadmap
+🙏 Crédits
 
-We are currently focusing on:
+MeyzLauncher s'appuie sur le travail des développeurs et contributeurs des projets utilisés.
 
-* Exploring new rendering technologies.
+Crédits aux projets d'origine :
 
-Future plans include:
+- "PojavLauncher" (https://github.com/PojavLauncherTeam/PojavLauncher) — projet de base.
+- "Boardwalk" (https://github.com/zhuowei/Boardwalk) — projet historique.
+- "LWJGL" (https://github.com/LWJGL/lwjgl3) — bibliothèques de jeu.
+- "GL4ES" (https://github.com/PojavLauncherTeam/gl4es) — compatibilité graphique.
+- "OpenJDK" (https://openjdk.org/) — environnement Java.
+- Tous les autres contributeurs et mainteneurs des bibliothèques utilisées.
 
-* Improving stability and performance.
-* Enhancing the mod installation experience.
+Les marques Minecraft et Mojang appartiennent à leurs propriétaires respectifs. MeyzLauncher est un projet indépendant et n'est pas affilié officiellement à Mojang ou Microsoft.
 
-We welcome community feedback and suggestions for our roadmap.  Please feel free to open a feature request in our [issue tracker](https://github.com/PojavLauncherTeam/PojavLauncher/issues).
+🚀 Feuille de route
+
+Les objectifs envisagés pour MeyzLauncher :
+
+- [ ] Finaliser l'identité visuelle bleue.
+- [ ] Personnaliser l'écran d'accueil.
+- [ ] Améliorer l'expérience utilisateur sur Android.
+- [ ] Vérifier la compatibilité avec les différentes versions de Minecraft.
+- [ ] Tester les performances sur les appareils modestes.
+- [ ] Automatiser la compilation des APK.
+- [ ] Publier des versions stables.
+- [ ] Étudier de nouvelles possibilités de personnalisation.
+
+---
+
+<p align="center">
+  <strong>🔵 MeyzLauncher</strong><br>
+  <em>Minecraft Java Edition, partout où Android le permet.</em>
+</p>
